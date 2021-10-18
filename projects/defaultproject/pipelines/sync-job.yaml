@@ -1,0 +1,26 @@
+apiVersion: gitops.k8smgmt.io/v3
+kind: Pipeline
+metadata:
+  id: rx28oml
+  modifiedAt:
+    nanos: 621909000
+    seconds: 1634533188
+  name: sync-job
+  project: defaultproject
+  projectID: rx28oml
+spec:
+  active: true
+  sharing: {}
+  stages:
+  - config:
+      destinationRepo: {}
+      gitToSystemSync: true
+      includedResources:
+      - name: '*'
+      sourceAsDestination: true
+      sourceRepo:
+        repository: opatest
+        revision: main
+      systemToGitSync: true
+    name: test
+    type: SystemSync
