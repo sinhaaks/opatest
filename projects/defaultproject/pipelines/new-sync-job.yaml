@@ -1,0 +1,12 @@
+apiVersion: gitops.k8smgmt.io/v3
+kind: Pipeline
+metadata:
+  id: 4qkolkn
+  modifiedAt:
+    nanos: 613110000
+    seconds: 1634533452
+  name: new-sync-job
+  project: defaultproject
+  projectID: rx28oml
+spec:
+  sharing: {}
