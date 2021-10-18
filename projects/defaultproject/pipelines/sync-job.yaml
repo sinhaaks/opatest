@@ -3,8 +3,8 @@ kind: Pipeline
 metadata:
   id: rx28oml
   modifiedAt:
-    nanos: 621909000
-    seconds: 1634533188
+    nanos: 339357000
+    seconds: 1634533399
   name: sync-job
   project: defaultproject
   projectID: rx28oml
@@ -22,5 +22,5 @@ spec:
         repository: opatest
         revision: main
       systemToGitSync: true
-    name: test
+    name: test-ankit
     type: SystemSync
