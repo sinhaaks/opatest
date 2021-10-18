@@ -1,0 +1,21 @@
+apiVersion: infra.k8smgmt.io/v3
+kind: Addon
+metadata:
+  description: Workload snapshot created for OPA Constraint Template
+  id: pk0xlk6
+  modifiedAt:
+    nanos: 883606000
+    seconds: 1634533999
+  name: opa-template-k8scontainerlimits
+  project: defaultproject
+  projectID: rx28oml
+spec:
+  artifact:
+    artifact:
+      paths:
+      - name: file://artifacts/opa-template-k8scontainerlimits/template1.yml
+    options: {}
+    type: Yaml
+  namespace: rafay-system
+  sharing: {}
+  version: opa-template-k8scontainerlimits-v1
