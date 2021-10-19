@@ -3,8 +3,8 @@ kind: Pipeline
 metadata:
   id: 4qkolkn
   modifiedAt:
-    nanos: 448622000
-    seconds: 1634534151
+    nanos: 680740000
+    seconds: 1634615920
   name: new-sync-job
   project: defaultproject
   projectID: rx28oml
@@ -27,3 +27,13 @@ spec:
       systemToGitSync: true
     name: test-ankit
     type: SystemSync
+  triggers:
+  - config:
+      repo:
+        paths:
+        - name: folder
+        provider: Github
+        repository: opatest
+        revision: main
+    name: test
+    type: Webhook
