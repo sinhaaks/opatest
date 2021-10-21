@@ -1,0 +1,40 @@
+apiVersion: gitops.k8smgmt.io/v3
+kind: Pipeline
+metadata:
+  id: 4qkolkn
+  modifiedAt:
+    nanos: 153551000
+    seconds: 1634793731
+  name: new-sync-job
+  project: defaultproject
+  projectID: rx28oml
+spec:
+  active: true
+  sharing: {}
+  stages:
+  - config:
+      destinationRepo:
+        repository: opatest
+        revision: main
+      gitToSystemSync: true
+      includedResources:
+      - name: '*'
+      sourceAsDestination: true
+      sourceRepo:
+        path:
+          name: folder1
+        repository: opatest
+        revision: main
+      systemToGitSync: true
+    name: test-ankit
+    type: SystemSync
+  triggers:
+  - config:
+      repo:
+        paths:
+        - name: folder
+        provider: Github
+        repository: opatest
+        revision: main
+    name: test
+    type: Webhook

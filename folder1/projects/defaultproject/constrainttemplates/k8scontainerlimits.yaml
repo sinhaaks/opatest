@@ -1,0 +1,17 @@
+apiVersion: opa.k8smgmt.io/v3
+kind: ConstraintTemplate
+metadata:
+  id: n7krp2l
+  modifiedAt:
+    nanos: 642599000
+    seconds: 1634533982
+  name: k8scontainerlimits
+  project: defaultproject
+  projectID: rx28oml
+spec:
+  artifact:
+    artifact:
+      paths:
+      - name: file://artifacts/k8scontainerlimits/template1.yml
+    options: {}
+    type: Yaml
