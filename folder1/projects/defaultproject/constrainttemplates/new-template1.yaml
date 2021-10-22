@@ -1,0 +1,15 @@
+apiVersion: opa.k8smgmt.io/v3
+kind: ConstraintTemplate
+metadata:
+  id: 9dk3emn
+  modifiedAt:
+    nanos: 998678000
+    seconds: 1634884525
+  name: new-template1
+  project: defaultproject
+  projectID: rx28oml
+spec:
+  artifact:
+    artifact: {}
+    options: {}
+    type: Yaml
