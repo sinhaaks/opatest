@@ -1,8 +1,13 @@
 apiVersion: opa.k8smgmt.io/v3
 kind: ConstraintTemplate
 metadata:
+  id: 72d0gkg
+  modifiedAt:
+    nanos: 965695000
+    seconds: 1635136406
   name: k8scontainerlimits
   project: defaultproject
+  projectID: rx28oml
 spec:
   artifact:
     artifact:
