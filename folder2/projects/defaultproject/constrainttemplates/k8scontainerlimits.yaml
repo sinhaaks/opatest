@@ -9,4 +9,4 @@ spec:
       paths:
       - name: file://artifacts/k8scontainerlimits/template1.yml
     options: {}
-    type: Helmwqwq
+    type: Helm
