@@ -2,10 +2,10 @@ apiVersion: infra.k8smgmt.io/v3
 kind: Addon
 metadata:
   description: Workload snapshot created for OPA Constraint Template
-  id: x28jokl
+  id: w2l5nkp
   modifiedAt:
-    nanos: 764729000
-    seconds: 1635163735
+    nanos: 986355000
+    seconds: 1635163792
   name: opa-constraint-repo-is-openpolicyagent
   project: defaultproject
   projectID: rx28oml
