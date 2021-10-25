@@ -1,0 +1,15 @@
+apiVersion: infra.k8smgmt.io/v3
+kind: Blueprint
+metadata:
+  description: asdasdasasdasd
+  id: wg29ek0
+  modifiedAt:
+    nanos: 721844000
+    seconds: 1634810884
+  name: asdasd
+  project: defaultproject
+  projectID: rx28oml
+spec:
+  defaultAddons: {}
+  drift: {}
+  sharing: {}
