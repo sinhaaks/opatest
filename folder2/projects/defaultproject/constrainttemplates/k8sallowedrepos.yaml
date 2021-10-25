@@ -3,8 +3,8 @@ kind: ConstraintTemplate
 metadata:
   id: dkgxjmx
   modifiedAt:
-    nanos: 813830000
-    seconds: 1635133699
+    nanos: 376004000
+    seconds: 1635142298
   name: k8sallowedrepos
   project: defaultproject
   projectID: rx28oml
@@ -13,5 +13,7 @@ spec:
     artifact:
       paths:
       - name: file://artifacts/k8sallowedrepos/template.yml
-    options: {}
+    options:
+      disableOpenAPIValidation: true
+      force: true
     type: Yaml
