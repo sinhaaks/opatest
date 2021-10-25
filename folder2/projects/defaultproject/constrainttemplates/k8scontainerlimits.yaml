@@ -3,8 +3,8 @@ kind: ConstraintTemplate
 metadata:
   id: 72d0gkg
   modifiedAt:
-    nanos: 965695000
-    seconds: 1635136406
+    nanos: 41584000
+    seconds: 1635155553
   name: k8scontainerlimits
   project: defaultproject
   projectID: rx28oml
@@ -13,5 +13,7 @@ spec:
     artifact:
       paths:
       - name: file://artifacts/k8scontainerlimits/template1.yml
-    options: {}
+    options:
+      disableOpenAPIValidation: true
+      force: true
     type: Yaml
