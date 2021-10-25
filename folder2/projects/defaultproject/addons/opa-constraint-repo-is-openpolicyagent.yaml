@@ -2,18 +2,16 @@ apiVersion: infra.k8smgmt.io/v3
 kind: Addon
 metadata:
   description: Workload snapshot created for OPA Constraint Template
-  id: w2l5nkp
+  id: dkg3jmx
   modifiedAt:
-    nanos: 986355000
-    seconds: 1635163792
+    nanos: 545326000
+    seconds: 1635174225
   name: opa-constraint-repo-is-openpolicyagent
   project: defaultproject
   projectID: rx28oml
 spec:
   artifact:
-    artifact:
-      paths:
-      - name: file://artifacts/opa-constraint-repo-is-openpolicyagent/constraint.yaml
+    artifact: {}
     options: {}
     type: Yaml
   namespace: rafay-system
