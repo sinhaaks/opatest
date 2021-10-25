@@ -1,0 +1,17 @@
+apiVersion: opa.k8smgmt.io/v3
+kind: ConstraintTemplate
+metadata:
+  id: dkgxjmx
+  modifiedAt:
+    nanos: 813830000
+    seconds: 1635133699
+  name: k8sallowedrepos
+  project: defaultproject
+  projectID: rx28oml
+spec:
+  artifact:
+    artifact:
+      paths:
+      - name: file://artifacts/k8sallowedrepos/template.yml
+    options: {}
+    type: Yaml

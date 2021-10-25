@@ -1,0 +1,15 @@
+apiVersion: opa.k8smgmt.io/v3
+kind: ConstraintTemplate
+metadata:
+  id: w2lrn2p
+  modifiedAt:
+    nanos: 492331000
+    seconds: 1635133494
+  name: aefvewr
+  project: defaultproject
+  projectID: rx28oml
+spec:
+  artifact:
+    artifact: {}
+    options: {}
+    type: Yaml
