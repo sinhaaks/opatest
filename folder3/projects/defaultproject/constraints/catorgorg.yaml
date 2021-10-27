@@ -1,0 +1,13 @@
+apiVersion: opa.k8smgmt.io/v3
+kind: Constraint
+metadata:
+  name: catorgorg
+  project: defaultproject
+spec:
+  artifact:
+    artifact:
+      paths:
+      - name: file://artifacts/catorgorg/constraint.yml
+    options: {}
+    type: Yaml
+  templateName: k8sallowedlimits
