@@ -1,0 +1,19 @@
+apiVersion: opa.k8smgmt.io/v3
+kind: ConstraintTemplate
+metadata:
+  id: g29wek0
+  modifiedAt:
+    nanos: 139880000
+    seconds: 1635236828
+  name: k8sallowedrepos
+  project: defaultproject
+  projectID: rx28oml
+spec:
+  artifact:
+    artifact:
+      paths:
+      - name: file://artifacts/k8sallowedrepos/template.yaml
+    options:
+      disableOpenAPIValidation: true
+      force: true
+    type: Yaml

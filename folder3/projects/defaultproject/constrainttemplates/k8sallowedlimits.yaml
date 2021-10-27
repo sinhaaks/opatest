@@ -1,0 +1,17 @@
+apiVersion: opa.k8smgmt.io/v3
+kind: ConstraintTemplate
+metadata:
+  id: 3mx6vmr
+  modifiedAt:
+    nanos: 307391000
+    seconds: 1635175467
+  name: k8sallowedlimits
+  project: defaultproject
+  projectID: rx28oml
+spec:
+  artifact:
+    artifact:
+      paths:
+      - name: file://artifacts/k8sallowedlimits/template2.yaml
+    options: {}
+    type: Yaml
