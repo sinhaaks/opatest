@@ -1,0 +1,14 @@
+apiVersion: infra.k8smgmt.io/v3
+kind: Blueprint
+metadata:
+  id: x3mxvkr
+  modifiedAt:
+    nanos: 132703000
+    seconds: 1635419247
+  name: test
+  project: defaultproject
+  projectID: rx28oml
+spec:
+  defaultAddons: {}
+  drift: {}
+  sharing: {}
