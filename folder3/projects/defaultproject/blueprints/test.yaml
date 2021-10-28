@@ -1,14 +1,27 @@
 apiVersion: infra.k8smgmt.io/v3
 kind: Blueprint
 metadata:
+  description: cdaef vqer
   id: x3mxvkr
   modifiedAt:
-    nanos: 132703000
-    seconds: 1635419247
+    nanos: 520775000
+    seconds: 1635419295
   name: test
   project: defaultproject
   projectID: rx28oml
 spec:
-  defaultAddons: {}
+  base:
+    name: default
+    version: snapshot - 2021-10-28T10:49:48Z
+  defaultAddons:
+    enableIngress: true
+    enableLogging: true
+    enableMonitoring: true
   drift: {}
+  psp:
+    enabled: true
+    names:
+    - rafay-privileged-psp
+    scope: Cluster
   sharing: {}
+  version: v1
