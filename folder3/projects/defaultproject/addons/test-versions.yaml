@@ -1,0 +1,17 @@
+apiVersion: infra.k8smgmt.io/v3
+kind: Addon
+metadata:
+  id: 1ky7gkz
+  modifiedAt:
+    nanos: 850824000
+    seconds: 1635419392
+  name: test-versions
+  project: defaultproject
+  projectID: rx28oml
+spec:
+  artifact:
+    artifact: {}
+    options: {}
+    type: Yaml
+  namespace: default-rafay-system
+  sharing: {}
