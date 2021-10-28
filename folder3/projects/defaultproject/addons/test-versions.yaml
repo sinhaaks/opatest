@@ -1,17 +1,21 @@
 apiVersion: infra.k8smgmt.io/v3
 kind: Addon
 metadata:
+  description: 'dfg '
   id: 1ky7gkz
   modifiedAt:
-    nanos: 850824000
-    seconds: 1635419392
+    nanos: 465639000
+    seconds: 1635419409
   name: test-versions
   project: defaultproject
   projectID: rx28oml
 spec:
   artifact:
-    artifact: {}
+    artifact:
+      paths:
+      - name: file://artifacts/test-versions/test-versions.yaml
     options: {}
     type: Yaml
   namespace: default-rafay-system
   sharing: {}
+  version: sdf
