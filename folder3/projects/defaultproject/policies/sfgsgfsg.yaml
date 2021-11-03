@@ -3,9 +3,16 @@ kind: Policy
 metadata:
   id: 7dkgjkx
   modifiedAt:
-    nanos: 96231000
-    seconds: 1634886733
+    nanos: 677809000
+    seconds: 1635926296
   name: sfgsgfsg
   project: defaultproject
   projectID: rx28oml
-spec: {}
+spec:
+  constraintList:
+  - name: host-network-ports
+  - name: linux-capabilities-drop-all
+  installationParams:
+    auditMatchKindOnly: true
+  sharing: {}
+  version: v2

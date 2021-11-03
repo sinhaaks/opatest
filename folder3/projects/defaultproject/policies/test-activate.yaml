@@ -1,0 +1,24 @@
+apiVersion: opa.k8smgmt.io/v3
+kind: Policy
+metadata:
+  id: djkegmw
+  modifiedAt:
+    nanos: 628308000
+    seconds: 1635926412
+  name: test-activate
+  project: defaultproject
+  projectID: rx28oml
+spec:
+  constraintList:
+  - name: app-armor
+  - name: linux-capabilities-drop-all
+  excludedNamespaces:
+  - namespaces:
+    - name: default-rafay-system
+    processes:
+    - '*'
+  installationParams:
+    auditFromCache: true
+    enableDeleteOperations: true
+  sharing: {}
+  version: v3

@@ -3,14 +3,14 @@ kind: Policy
 metadata:
   id: x3mxvkr
   modifiedAt:
-    nanos: 53071000
-    seconds: 1635912532
+    nanos: 620286000
+    seconds: 1635926307
   name: createnew
   project: defaultproject
   projectID: rx28oml
 spec:
   constraintList:
-  - {}
+  - name: catorgorg
   excludedNamespaces:
   - namespaces:
     - name: default-rafay-system
@@ -26,4 +26,4 @@ spec:
     projects:
     - id: 7w2lnkp
     - id: 4qkolkn
-  version: v1
+  version: v1sd
