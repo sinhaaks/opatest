@@ -1,0 +1,25 @@
+apiVersion: opa.k8smgmt.io/v3
+kind: Policy
+metadata:
+  id: x3mxvkr
+  modifiedAt:
+    nanos: 800089000
+    seconds: 1635911475
+  name: createnew
+  project: defaultproject
+  projectID: rx28oml
+spec:
+  constraintList:
+  - {}
+  excludedNamespaces:
+  - namespaces:
+    - name: default-rafay-system
+    processes:
+    - audit
+  installationParams:
+    auditFromCache: true
+    auditInterval: 60
+    auditMatchKindOnly: true
+    constraintViolationsLimit: 20
+  sharing: {}
+  version: v1

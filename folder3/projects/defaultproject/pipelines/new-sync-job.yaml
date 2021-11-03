@@ -3,13 +3,12 @@ kind: Pipeline
 metadata:
   id: 4qkolkn
   modifiedAt:
-    nanos: 411692000
-    seconds: 1635337969
+    nanos: 850446000
+    seconds: 1635911499
   name: new-sync-job
   project: defaultproject
   projectID: rx28oml
 spec:
-  active: true
   sharing: {}
   stages:
   - config:

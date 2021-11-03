@@ -1,0 +1,11 @@
+apiVersion: opa.k8smgmt.io/v3
+kind: Policy
+metadata:
+  id: q72dg2g
+  modifiedAt:
+    nanos: 622118000
+    seconds: 1634887265
+  name: asdasasd
+  project: defaultproject
+  projectID: rx28oml
+spec: {}
