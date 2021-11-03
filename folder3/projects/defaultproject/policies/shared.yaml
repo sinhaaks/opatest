@@ -1,15 +1,16 @@
 apiVersion: opa.k8smgmt.io/v3
 kind: Policy
 metadata:
-  id: x3mxvkr
+  id: gdk6g21
   modifiedAt:
-    nanos: 53071000
-    seconds: 1635912532
-  name: createnew
+    nanos: 418848000
+    seconds: 1635912670
+  name: shared
   project: defaultproject
   projectID: rx28oml
 spec:
   constraintList:
+  - {}
   - {}
   excludedNamespaces:
   - namespaces:
@@ -19,11 +20,14 @@ spec:
   installationParams:
     auditFromCache: true
     auditInterval: 60
-    auditMatchKindOnly: true
     constraintViolationsLimit: 20
+    enableDeleteOperations: true
   sharing:
     enabled: true
     projects:
     - id: 7w2lnkp
     - id: 4qkolkn
-  version: v1
+  syncObjects:
+  - kind: Pod
+    version: v1
+  version: v2
