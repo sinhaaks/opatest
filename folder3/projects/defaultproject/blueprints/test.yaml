@@ -4,8 +4,8 @@ metadata:
   description: df. erd wrdwdf v
   id: x3mxvkr
   modifiedAt:
-    nanos: 392484000
-    seconds: 1635419316
+    nanos: 354771000
+    seconds: 1635917410
   name: test
   project: defaultproject
   projectID: rx28oml
@@ -23,5 +23,11 @@ spec:
     names:
     - rafay-privileged-psp
     scope: Cluster
-  sharing: {}
+  sharing:
+    enabled: true
+    projects:
+    - id: 7w2lnkp
+      name: three
+    - id: 4qkolkn
+      name: two
   version: v2
