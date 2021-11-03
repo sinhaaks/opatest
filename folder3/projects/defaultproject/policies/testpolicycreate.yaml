@@ -1,7 +1,7 @@
 apiVersion: opa.k8smgmt.io/v3
 kind: Policy
 metadata:
-  name: test-creae12
+  name: test-crea90
   project: defaultproject
 spec:
   constraintList:
