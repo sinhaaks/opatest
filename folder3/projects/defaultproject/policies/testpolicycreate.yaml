@@ -1,7 +1,7 @@
 apiVersion: opa.k8smgmt.io/v3
 kind: Policy
 metadata:
-  name: name-test1
+  name: name-test2
   project: defaultproject
 spec:
   constraintList:
@@ -24,4 +24,4 @@ spec:
       name: three
     - id: 4qkolkn
       name: two
-  version: v1
+  version: v2
