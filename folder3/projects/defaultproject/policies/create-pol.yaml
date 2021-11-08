@@ -8,7 +8,6 @@ spec:
   - name: app-armor
   - name: linux-capabilities-drop-all
   - name: catorgorg
-  - name: repo-is-openpolicyagent
   excludedNamespaces:
   - namespaces:
     - name: default-rafay-system
@@ -20,6 +19,6 @@ spec:
   sharing:
     enabled: true
     projects:
-    - id: 7w2lnkp
-    - id: 4qkolkn
-  version: v2
+    - name: two
+    - name: three
+  version: v3
