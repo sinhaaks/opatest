@@ -4,15 +4,15 @@ metadata:
   description: df. erd wrdwdf v
   id: x3mxvkr
   modifiedAt:
-    nanos: 354771000
-    seconds: 1635917410
+    nanos: 306793000
+    seconds: 1636361073
   name: test
   project: defaultproject
   projectID: rx28oml
 spec:
   base:
     name: default
-    version: snapshot - 2021-10-28T10:49:48Z
+    version: snapshot - 2021-11-08T03:56:06Z
   defaultAddons:
     enableIngress: true
     enableLogging: true
@@ -30,4 +30,4 @@ spec:
       name: three
     - id: 4qkolkn
       name: two
-  version: v3
+  version: naya-version

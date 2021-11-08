@@ -3,8 +3,8 @@ kind: Policy
 metadata:
   id: n7krp2l
   modifiedAt:
-    nanos: 621635000
-    seconds: 1636269596
+    nanos: 23398000
+    seconds: 1636359439
   name: name-test2
   project: defaultproject
   projectID: rx28oml
@@ -29,4 +29,4 @@ spec:
       name: three
     - id: 4qkolkn
       name: two
-  version: v2
+  version: v3
