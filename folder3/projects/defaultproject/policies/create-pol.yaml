@@ -21,4 +21,4 @@ spec:
     projects:
     - name: two
     - name: three
-  version: v3
+  version: v4
