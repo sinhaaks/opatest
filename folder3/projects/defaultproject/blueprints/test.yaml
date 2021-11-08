@@ -30,4 +30,4 @@ spec:
       name: three
     - id: 4qkolkn
       name: two
-  version: logv1
+  version: logv2
