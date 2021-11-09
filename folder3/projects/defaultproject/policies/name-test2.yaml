@@ -1,10 +1,6 @@
 apiVersion: opa.k8smgmt.io/v3
 kind: Policy
 metadata:
-  id: n7krp2l
-  modifiedAt:
-    nanos: 23398000
-    seconds: 1636359439
   name: name-test2
   project: defaultproject
   projectID: rx28oml
@@ -12,7 +8,6 @@ spec:
   constraintList:
   - name: app-armor
   - name: linux-capabilities-drop-all
-  - name: catorgorg
   - name: repo-is-openpolicyagent
   excludedNamespaces:
   - namespaces:
@@ -29,4 +24,4 @@ spec:
       name: three
     - id: 4qkolkn
       name: two
-  version: v3
+  version: v7
