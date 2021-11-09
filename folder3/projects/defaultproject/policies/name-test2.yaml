@@ -1,6 +1,10 @@
 apiVersion: opa.k8smgmt.io/v3
 kind: Policy
 metadata:
+  id: n7krp2l
+  modifiedAt:
+    nanos: 182279000
+    seconds: 1636449149
   name: name-test2
   project: defaultproject
   projectID: rx28oml
