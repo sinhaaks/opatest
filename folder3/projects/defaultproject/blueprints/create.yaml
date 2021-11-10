@@ -1,0 +1,26 @@
+apiVersion: infra.k8smgmt.io/v3
+kind: Blueprint
+metadata:
+  description: df. erd wrdwdf v
+  name: test1
+  project: defaultproject
+spec:
+  base:
+    name: default
+    version: snapshot - 2021-11-08T03:56:06Z
+  defaultAddons:
+    enableIngress: true
+    enableLogging: true
+    enableMonitoring: true
+  drift: {}
+  psp:
+    enabled: true
+    names:
+    - rafay-privileged-psp
+    scope: Cluster
+  sharing:
+    enabled: true
+    projects:
+    - name: three
+    - name: two
+  version: logv3
