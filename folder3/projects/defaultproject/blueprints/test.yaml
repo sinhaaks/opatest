@@ -25,4 +25,4 @@ spec:
     projects:
     - name: three
     - name: two
-  version: lo
+  version: low
