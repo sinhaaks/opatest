@@ -19,7 +19,6 @@ spec:
   sharing:
     enabled: true
     projects:
-    - name: two
     - name: three
+    - name: two
   version: ver4
-  

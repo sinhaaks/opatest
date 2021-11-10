@@ -1,10 +1,10 @@
 apiVersion: opa.k8smgmt.io/v3
 kind: Policy
 metadata:
-  name: lfvqefv
+  name: thisshouldwork
   project: defaultproject
 spec:
   installationParams: {}
   sharing:
     enabled: false
-  version: v5
+  version: v1

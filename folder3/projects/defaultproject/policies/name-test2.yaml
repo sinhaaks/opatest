@@ -1,13 +1,8 @@
 apiVersion: opa.k8smgmt.io/v3
 kind: Policy
 metadata:
-  id: n7krp2l
-  modifiedAt:
-    nanos: 182279000
-    seconds: 1636449149
   name: name-test2
   project: defaultproject
-  projectID: rx28oml
 spec:
   constraintList:
   - name: app-armor
@@ -24,8 +19,6 @@ spec:
   sharing:
     enabled: true
     projects:
-    - id: 7w2lnkp
-      name: three
-    - id: 4qkolkn
-      name: two
+    - name: three
+    - name: two
   version: v8
