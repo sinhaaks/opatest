@@ -1,11 +1,6 @@
 apiVersion: infra.k8smgmt.io/v3
 kind: Namespace
 metadata:
-  id: 7dkgjkx
-  modifiedAt:
-    nanos: 4603000
-    seconds: 1634115946
   name: default-rafay-system
   project: defaultproject
-  projectID: rx28oml
 spec: {}

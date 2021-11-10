@@ -1,13 +1,8 @@
 apiVersion: opa.k8smgmt.io/v3
 kind: Constraint
 metadata:
-  id: x28ooml
-  modifiedAt:
-    nanos: 619837000
-    seconds: 1635336038
   name: repo-is-openpolicyagent
   project: defaultproject
-  projectID: rx28oml
 spec:
   artifact:
     artifact:

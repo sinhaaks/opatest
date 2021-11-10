@@ -2,13 +2,8 @@ apiVersion: infra.k8smgmt.io/v3
 kind: Blueprint
 metadata:
   description: df. erd wrdwdf v
-  id: x3mxvkr
-  modifiedAt:
-    nanos: 403580000
-    seconds: 1636371476
   name: test
   project: defaultproject
-  projectID: rx28oml
 spec:
   base:
     name: default
@@ -17,7 +12,9 @@ spec:
     enableIngress: true
     enableLogging: true
     enableMonitoring: true
-  drift: {}
+    enableVM: false
+  drift:
+    enabled: false
   psp:
     enabled: true
     names:
@@ -26,8 +23,6 @@ spec:
   sharing:
     enabled: true
     projects:
-    - id: 7w2lnkp
-      name: three
-    - id: 4qkolkn
-      name: two
+    - name: three
+    - name: two
   version: logv2

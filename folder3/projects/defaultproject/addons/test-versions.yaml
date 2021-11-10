@@ -2,13 +2,8 @@ apiVersion: infra.k8smgmt.io/v3
 kind: Addon
 metadata:
   description: vsf srfd vbrfv
-  id: 1ky7gkz
-  modifiedAt:
-    nanos: 271471000
-    seconds: 1635419420
   name: test-versions
   project: defaultproject
-  projectID: rx28oml
 spec:
   artifact:
     artifact:
@@ -17,5 +12,6 @@ spec:
     options: {}
     type: Yaml
   namespace: default-rafay-system
-  sharing: {}
+  sharing:
+    enabled: false
   version: vfs
