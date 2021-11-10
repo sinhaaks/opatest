@@ -1,0 +1,11 @@
+apiVersion: opa.k8smgmt.io/v3
+kind: Constraint
+metadata:
+  name: tryagain
+  project: defaultproject
+spec:
+  artifact:
+    artifact: {}
+    options: {}
+    type: Yaml
+  templateName: flex-volumes
