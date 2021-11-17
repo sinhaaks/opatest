@@ -1,0 +1,19 @@
+apiVersion: infra.k8smgmt.io/v3
+kind: Blueprint
+metadata:
+  name: two-constraint
+  project: defaultproject
+spec:
+  base:
+    name: minimal
+    version: snapshot - 2021-11-16T02:59:15Z
+  defaultAddons:
+    enableIngress: true
+    enableLogging: true
+    enableMonitoring: true
+    enableVM: false
+  drift:
+    enabled: false
+  sharing:
+    enabled: false
+  version: v2

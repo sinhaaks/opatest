@@ -1,0 +1,13 @@
+apiVersion: opa.k8smgmt.io/v3
+kind: Policy
+metadata:
+  name: new-2-constraint
+  project: defaultproject
+spec:
+  constraintList:
+  - name: repo-is-openpolicyagent
+  - name: container-must-have-limits
+  installationParams: {}
+  sharing:
+    enabled: false
+  version: v1
