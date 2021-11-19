@@ -1,0 +1,13 @@
+apiVersion: opa.k8smgmt.io/v3
+kind: Constraint
+metadata:
+  name: container-must-have-limits1
+  project: defaultproject
+spec:
+  artifact:
+    artifact:
+      paths:
+      - name: file://artifacts/container-must-have-limits1/temp.yaml
+    options: {}
+    type: Yaml
+  templateName: k8scontainerlimits
