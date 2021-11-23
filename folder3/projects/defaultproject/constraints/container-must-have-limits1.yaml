@@ -8,6 +8,7 @@ spec:
     artifact:
       paths:
       - name: file://artifacts/container-must-have-limits1/temp.yaml
-    options: {}
+    options:
+      force: true
     type: Yaml
   templateName: k8scontainerlimits
