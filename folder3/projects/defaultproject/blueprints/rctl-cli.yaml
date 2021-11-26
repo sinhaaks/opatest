@@ -4,12 +4,16 @@ metadata:
   name: rctl-cli
   project: defaultproject
 spec:
+  base:
+    name: default
+    version: snapshot - 2021-11-26T04:20:39Z
   defaultAddons:
     enableIngress: false
-    enableLogging: false
+    enableLogging: true
     enableMonitoring: false
     enableVM: false
   drift:
     enabled: false
   sharing:
     enabled: false
+  version: v1
