@@ -1,0 +1,24 @@
+apiVersion: opa.k8smgmt.io/v3
+kind: Policy
+metadata:
+  name: rctl1
+  project: defaultproject
+spec:
+  constraintList:
+  - name: app-armor
+  - name: linux-capabilities-drop-all
+  - name: catorgorg
+  excludedNamespaces:
+  - namespaces:
+    - name: default-rafay-system
+    processes:
+    - '*'
+  installationParams:
+    auditFromCache: true
+    enableDeleteOperations: true
+  sharing:
+    enabled: true
+    projects:
+    - name: three
+    - name: two
+  version: v2
