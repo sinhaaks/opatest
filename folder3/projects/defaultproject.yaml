@@ -1,7 +1,6 @@
 apiVersion: system.k8smgmt.io/v3
 kind: Project
 metadata:
-  id: rx28oml
   name: defaultproject
 spec:
   default: true
