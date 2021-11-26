@@ -4,12 +4,21 @@ metadata:
   name: rctl
   project: defaultproject
 spec:
+  base:
+    name: minimal
+    version: snapshot - 2021-11-26T04:20:39Z
   defaultAddons:
-    enableIngress: false
-    enableLogging: false
-    enableMonitoring: false
+    enableIngress: true
+    enableLogging: true
+    enableMonitoring: true
     enableVM: false
   drift:
     enabled: false
+  psp:
+    enabled: true
+    names:
+    - rafay-privileged-psp
+    scope: Cluster
   sharing:
     enabled: false
+  version: v1
