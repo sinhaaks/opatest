@@ -16,4 +16,4 @@ spec:
     enabled: false
   sharing:
     enabled: false
-  version: v1
+  version: v2
