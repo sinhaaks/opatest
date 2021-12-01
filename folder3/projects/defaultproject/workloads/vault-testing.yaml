@@ -5,7 +5,11 @@ metadata:
   project: defaultproject
 spec:
   artifact:
-    artifact: {}
+    artifact:
+      chartPath:
+        name: file://artifacts/vault-testing/vault-helm-0.5.0.tar.gz
+      valuesPaths:
+      - name: file://artifacts/vault-testing/vault-helm-050-values.yaml
     options:
       maxHistory: 10
       timeout: 5m0s
@@ -13,4 +17,5 @@ spec:
   drift:
     enabled: false
   namespace: newns
-  placement: {}
+  placement:
+    selector: rafay.dev/clusterName=mini
