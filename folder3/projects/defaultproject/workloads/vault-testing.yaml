@@ -1,0 +1,22 @@
+apiVersion: apps.k8smgmt.io/v3
+kind: Workload
+metadata:
+  name: vault-testing
+  project: defaultproject
+spec:
+  artifact:
+    artifact:
+      chartPath:
+        name: file://artifacts/vault-testing/vault-helm-0.5.0.tar.gz
+      valuesPaths:
+      - name: file://artifacts/vault-testing/vault-helm-050-values.yaml
+    options:
+      maxHistory: 10
+      timeout: 5m0s
+    type: Helm
+  drift:
+    enabled: false
+  namespace: newns
+  placement:
+    selector: rafay.dev/clusterName=mini
+  version: vault-testing-v1
