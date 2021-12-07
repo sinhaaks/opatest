@@ -1,16 +1,13 @@
 apiVersion: infra.k8smgmt.io/v3
 kind: Addon
 metadata:
-  name: access-secret
+  name: test2
   project: defaultproject
 spec:
   artifact:
-    artifact:
-      paths:
-      - name: file://artifacts/access-secret/access-secret.yaml
+    artifact: {}
     options: {}
     type: Yaml
   namespace: newns
   sharing:
     enabled: false
-  version: access-secret-v4
