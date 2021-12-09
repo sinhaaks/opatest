@@ -1,13 +1,13 @@
 apiVersion: apps.k8smgmt.io/v3
 kind: Workload
 metadata:
-  name: dafvdfv
+  name: multiyaml
   project: defaultproject
 spec:
   artifact:
     artifact:
       paths:
-      - name: file://artifacts/dafvdfv/dafvdfv.yaml
+      - name: file://artifacts/multiyaml/multiyaml.yaml
     options: {}
     type: Yaml
   drift:
@@ -15,3 +15,4 @@ spec:
   namespace: newns
   placement:
     selector: rafay.dev/clusterName=mini
+  version: multiyaml-v1
