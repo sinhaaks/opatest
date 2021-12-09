@@ -1,13 +1,13 @@
 apiVersion: infra.k8smgmt.io/v3
 kind: Addon
 metadata:
-  name: multiyaml
+  name: dafvdfv
   project: defaultproject
 spec:
   artifact:
     artifact:
       paths:
-      - name: file://artifacts/multiyaml/multiyaml.yaml
+      - name: file://artifacts/dafvdfv/dafvdfv.yaml
     options: {}
     type: Yaml
   namespace: newns
