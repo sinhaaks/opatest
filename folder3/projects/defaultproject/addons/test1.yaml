@@ -1,15 +1,16 @@
 apiVersion: infra.k8smgmt.io/v3
 kind: Addon
 metadata:
-  name: dafvdfv
+  name: test1
   project: defaultproject
 spec:
   artifact:
     artifact:
       paths:
-      - name: file://artifacts/dafvdfv/dafvdfv.yaml
+      - name: file://artifacts/test1/test1.yaml
     options: {}
     type: Yaml
   namespace: newns
   sharing:
     enabled: false
+  version: test1-v3

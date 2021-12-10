@@ -6,5 +6,8 @@ metadata:
 spec:
   installationParams: {}
   sharing:
-    enabled: false
+    enabled: true
+    projects:
+    - name: three
+    - name: two
   version: v1
