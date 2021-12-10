@@ -8,6 +8,5 @@ spec:
   sharing:
     enabled: true
     projects:
-    - name: three
-    - name: two
+    - name: four
   version: v1
