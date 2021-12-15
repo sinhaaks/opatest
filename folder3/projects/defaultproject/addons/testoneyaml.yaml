@@ -13,4 +13,3 @@ spec:
   namespace: newns
   sharing:
     enabled: false
-  version: testoneyaml-v1
