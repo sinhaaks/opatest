@@ -1,0 +1,18 @@
+apiVersion: apps.k8smgmt.io/v3
+kind: Workload
+metadata:
+  name: testoneyaml
+  project: defaultproject
+spec:
+  artifact:
+    artifact:
+      paths:
+      - name: file://artifacts/testoneyaml/testoneyaml.yaml
+    options: {}
+    type: Yaml
+  drift:
+    enabled: false
+  namespace: newns
+  placement:
+    selector: rafay.dev/clusterName=mini
+  version: testoneyaml-v1
