@@ -26,6 +26,12 @@ spec:
             "secretFileName": "kv2-one",
             "volumeMountPath": "/secure/vault/secrets/1"
           }
+        vault.secretstore.rafay.dev/filesecret-config-3: |
+          {
+            "vaultSecretRef": "kv1/ads",
+            "secretFileName": "kv1-all",
+            "volumeMountPath": "/secure/vault/secrets/1"
+          }
         vault.secretstore.rafay.dev/filesecret-config-4: |
           {
             "vaultSecretRef": "kv1/ads#dsa",

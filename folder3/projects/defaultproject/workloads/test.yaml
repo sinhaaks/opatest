@@ -1,13 +1,13 @@
 apiVersion: apps.k8smgmt.io/v3
 kind: Workload
 metadata:
-  name: test1
+  name: test
   project: defaultproject
 spec:
   artifact:
     artifact:
       paths:
-      - name: file://artifacts/test1/test1.yaml
+      - name: file://artifacts/test/test.yaml
     options: {}
     type: Yaml
   drift:
@@ -15,4 +15,4 @@ spec:
   namespace: newns
   placement:
     selector: rafay.dev/clusterName=mini
-  version: test1-v1
+  version: test-v1
