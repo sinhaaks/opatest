@@ -15,4 +15,3 @@ spec:
   namespace: newns
   placement:
     selector: rafay.dev/clusterName=mini
-  version: test2-v2
