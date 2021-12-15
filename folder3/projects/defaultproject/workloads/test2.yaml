@@ -5,10 +5,14 @@ metadata:
   project: defaultproject
 spec:
   artifact:
-    artifact: {}
+    artifact:
+      paths:
+      - name: file://artifacts/test2/test2.yaml
     options: {}
     type: Yaml
   drift:
     enabled: false
   namespace: newns
-  placement: {}
+  placement:
+    selector: rafay.dev/clusterName=mini
+  version: test2-v2

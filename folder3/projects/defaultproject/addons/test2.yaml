@@ -5,9 +5,12 @@ metadata:
   project: defaultproject
 spec:
   artifact:
-    artifact: {}
+    artifact:
+      paths:
+      - name: file://artifacts/test2/test2.yaml
     options: {}
     type: Yaml
   namespace: newns
   sharing:
     enabled: false
+  version: test2-v1
