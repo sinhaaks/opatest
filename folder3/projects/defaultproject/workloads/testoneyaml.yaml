@@ -5,10 +5,14 @@ metadata:
   project: defaultproject
 spec:
   artifact:
-    artifact: {}
+    artifact:
+      paths:
+      - name: file://artifacts/testoneyaml/testoneyaml.yaml
     options: {}
     type: Yaml
   drift:
     enabled: false
   namespace: newns
-  placement: {}
+  placement:
+    selector: rafay.dev/clusterName=mini
+  version: testoneyaml-v1
