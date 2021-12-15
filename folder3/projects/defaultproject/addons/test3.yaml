@@ -1,0 +1,16 @@
+apiVersion: infra.k8smgmt.io/v3
+kind: Addon
+metadata:
+  name: test3
+  project: defaultproject
+spec:
+  artifact:
+    artifact:
+      paths:
+      - name: file://artifacts/test3/test3.yaml
+    options: {}
+    type: Yaml
+  namespace: newns
+  sharing:
+    enabled: false
+  version: test3-v1
