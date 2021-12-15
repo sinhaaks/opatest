@@ -1,16 +1,16 @@
 apiVersion: infra.k8smgmt.io/v3
 kind: Addon
 metadata:
-  name: testallyaml
+  name: serviceacc
   project: defaultproject
 spec:
   artifact:
     artifact:
       paths:
-      - name: file://artifacts/testallyaml/testallyaml.yaml
+      - name: file://artifacts/serviceacc/serviceacc.yaml
     options: {}
     type: Yaml
   namespace: newns
   sharing:
     enabled: false
-  version: testallyaml-v1
+  version: serviceacc-v1
