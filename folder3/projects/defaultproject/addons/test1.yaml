@@ -13,3 +13,4 @@ spec:
   namespace: newns
   sharing:
     enabled: false
+  version: test1-v1

@@ -15,10 +15,12 @@ spec:
     - '*'
   installationParams:
     auditFromCache: true
+    auditInterval: 786
+    constraintViolationsLimit: 213
     enableDeleteOperations: true
   sharing:
     enabled: true
     projects:
     - name: three
     - name: two
-  version: v8
+  version: version1
