@@ -5,6 +5,9 @@ metadata:
   name: asdasd
   project: defaultproject
 spec:
+  base:
+    name: default
+    version: snapshot - 2021-12-20T04:06:05Z
   defaultAddons:
     enableIngress: false
     enableLogging: false
@@ -14,3 +17,4 @@ spec:
     enabled: false
   sharing:
     enabled: false
+  version: v1
