@@ -1,0 +1,10 @@
+apiVersion: opa.k8smgmt.io/v3
+kind: ConstraintTemplate
+metadata:
+  name: lsfdh
+  project: defaultproject
+spec:
+  artifact:
+    artifact: {}
+    options: {}
+    type: Yaml
