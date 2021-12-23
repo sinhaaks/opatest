@@ -1,0 +1,12 @@
+apiVersion: opa.k8smgmt.io/v3
+kind: ConstraintTemplate
+metadata:
+  name: k8sallowedrepos
+  project: defaultproject
+spec:
+  artifact:
+    artifact:
+      paths:
+      - name: file://artifacts/k8sallowedrepos/template.yml
+    options: {}
+    type: Yaml
