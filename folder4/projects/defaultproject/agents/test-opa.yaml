@@ -1,0 +1,10 @@
+apiVersion: gitops.k8smgmt.io/v3
+kind: Agent
+metadata:
+  name: test-opa
+  project: defaultproject
+spec:
+  active: true
+  cluster:
+    name: mini-opa-hub
+  type: Cluster

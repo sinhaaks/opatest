@@ -1,0 +1,16 @@
+apiVersion: integrations.k8smgmt.io/v3
+kind: Repository
+metadata:
+  name: opa-hub
+  project: defaultproject
+spec:
+  agents:
+  - name: test-opa
+  credentials:
+    password: sealed://credentials.password
+    username: sinhaaks
+  endpoint: https://github.com/sinhaaks/opatest.git
+  options: {}
+  secret:
+    name: file://artifacts/opa-hub/sealed-secret.yaml
+  type: Git

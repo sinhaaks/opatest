@@ -1,0 +1,26 @@
+apiVersion: gitops.k8smgmt.io/v3
+kind: Pipeline
+metadata:
+  name: new-test
+  project: defaultproject
+spec:
+  active: false
+  sharing:
+    enabled: false
+  stages:
+  - config:
+      destinationRepo: {}
+      excludedResources:
+      - name: SecretSealer
+      gitToSystemSync: true
+      includedResources:
+      - name: '*'
+      sourceAsDestination: true
+      sourceRepo:
+        path:
+          name: folder4
+        repository: opa-hub
+        revision: main
+      systemToGitSync: true
+    name: test
+    type: SystemSync
