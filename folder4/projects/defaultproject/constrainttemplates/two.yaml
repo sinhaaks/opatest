@@ -1,7 +1,7 @@
 apiVersion: opa.k8smgmt.io/v3
 kind: ConstraintTemplate
 metadata:
-  name: one
+  name: two
   project: defaultproject
 spec:
   artifact:
