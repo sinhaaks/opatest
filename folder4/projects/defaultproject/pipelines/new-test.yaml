@@ -4,7 +4,7 @@ metadata:
   name: new-test
   project: defaultproject
 spec:
-  active: false
+  active: true
   sharing:
     enabled: false
   stages:
